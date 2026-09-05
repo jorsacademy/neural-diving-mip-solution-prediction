@@ -1,6 +1,11 @@
 import numpy as np
 
-from neural_diving.model import load_predictor, predict_probabilities, save_predictor, train_predictor
+from neural_diving.model import (
+    load_predictor,
+    predict_probabilities,
+    save_predictor,
+    train_predictor,
+)
 
 
 def test_predictor_trains_and_roundtrips(tmp_path):
