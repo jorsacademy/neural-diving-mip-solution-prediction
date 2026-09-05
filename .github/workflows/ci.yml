@@ -55,7 +55,7 @@ jobs:
           --model artifacts/predictor.pt --seed 9000 --instances 8
           --items 24 --constraints 5 --stochastic-samples 2
           --output artifacts/benchmark.json
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v6
         with:
           name: neural-diving-smoke-artifacts
           path: artifacts/*
