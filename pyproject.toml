@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "Independent Neural Diving research sandbox: solution prediction, partial variable fixing, and HiGHS sub-MIP completion."
 readme = "README.md"
 requires-python = ">=3.10"
-license = {text = "MIT"}
+license = {file = "LICENSE"}
 authors = [{name = "Jors Academy"}]
 dependencies = [
   "numpy>=1.26,<3",
